@@ -68,3 +68,13 @@ button:hover {
   background-color: #005fa3;
   transform: translateY(-2px);
 }
+
+button:active {
+  animation: bounce 0.3s ease;
+}
+
+@keyframes bounce {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(0.95); }
+  100% { transform: scale(1); }
+}
