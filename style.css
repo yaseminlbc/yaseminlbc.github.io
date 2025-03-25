@@ -32,6 +32,24 @@ h1 {
   transform: scale(1.02);
 }
 
+#advice {
+ 
+  animation: fadeInUp 0.8s ease forwards;
+  opacity: 0;
+}
+
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 
 button {
   padding: 12px 25px;
